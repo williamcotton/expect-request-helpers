@@ -1,0 +1,39 @@
+{
+  "name": "expect-request-helpers",
+  "version": "1.0.0",
+  "description": "Promise-based HTTP request helpers with Cheerio.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index-spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamcotton/expect-request-helpers.git"
+  },
+  "keywords": [
+    "expect",
+    "request",
+    "promise",
+    "cheerio",
+    "http"
+  ],
+  "author": "William Cotton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamcotton/expect-request-helpers/issues"
+  },
+  "homepage": "https://github.com/williamcotton/expect-request-helpers#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.75.0",
+    "request-promise-native": "^1.0.3"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "tape": "^4.6.1"
+  }
+}
